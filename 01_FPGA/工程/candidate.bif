@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+ [bootloader, destination_cpu=apu-0, checksum=sha2] I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/fpga-direct-preview-20261019/baseline/FPGA/Project/ps-linux/integrated-hdmi-can/boot-package/elf-wrappers/vendor_fsbl.elf
+ [destination_device=pl, load=0x00200000, checksum=sha2] I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/coordinated-ptp-20261030/Build/coordinated-ptp.bit
+ [destination_cpu=apu-0, checksum=sha2] I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/fpga-direct-preview-20261019/baseline/FPGA/Project/ps-linux/integrated-hdmi-can/boot-package/elf-wrappers/vendor_uboot.elf
+}

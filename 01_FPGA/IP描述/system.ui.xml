@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:position xmlns:xsi="http" xmlns:ipxact="http" xmlns:anlogic="http" xsi:schemaLocation="http">
+    <ipxact:instances>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="ARM_Processor_System_0" version="1.0">
+            <ipxact:xPos>481.5</ipxact:xPos>
+            <ipxact:yPos>881</ipxact:yPos>
+            <ipxact:width>298</ipxact:width>
+            <ipxact:height>314</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts>
+                <ipxact:instBusPort>
+                    <ipxact:name>S_AXI_HP0</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>S_AXI_HP1</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>M_AXI_GP0</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>M_AXI_GP1</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>GPIO</ipxact:name>
+                    <ipxact:isExpanded>true</ipxact:isExpanded>
+                </ipxact:instBusPort>
+            </ipxact:instBusPorts>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="Processor_System_Reset_0" version="1.0">
+            <ipxact:xPos>480</ipxact:xPos>
+            <ipxact:yPos>140</ipxact:yPos>
+            <ipxact:width>301</ipxact:width>
+            <ipxact:height>184</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="Constant_0" version="1.0">
+            <ipxact:xPos>247</ipxact:xPos>
+            <ipxact:yPos>192</ipxact:yPos>
+            <ipxact:width>111</ipxact:width>
+            <ipxact:height>80</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="VDMA_0" version="1.0">
+            <ipxact:xPos>1746</ipxact:xPos>
+            <ipxact:yPos>1262</ipxact:yPos>
+            <ipxact:width>346</ipxact:width>
+            <ipxact:height>314</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts>
+                <ipxact:instBusPort>
+                    <ipxact:name>S_AXI_LITE</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>S_AXIS_S2MM</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>M_AXI_MM2S</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>M_AXI_S2MM</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>M_AXIS_MM2S</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+            </ipxact:instBusPorts>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="AXI_Matrix_0" version="1.0">
+            <ipxact:xPos>1430</ipxact:xPos>
+            <ipxact:yPos>1353</ipxact:yPos>
+            <ipxact:width>205</ipxact:width>
+            <ipxact:height>132</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts>
+                <ipxact:instBusPort>
+                    <ipxact:name>US_AXI0</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>DS_AXI0</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>DS_AXI1</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+            </ipxact:instBusPorts>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="Processor_System_Reset_0_200" version="1.0">
+            <ipxact:xPos>480</ipxact:xPos>
+            <ipxact:yPos>565</ipxact:yPos>
+            <ipxact:width>301</ipxact:width>
+            <ipxact:height>184</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="AXI_ERAM_Controller_0" version="1.0">
+            <ipxact:xPos>1075.5</ipxact:xPos>
+            <ipxact:yPos>959</ipxact:yPos>
+            <ipxact:width>247</ipxact:width>
+            <ipxact:height>158</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts>
+                <ipxact:instBusPort>
+                    <ipxact:name>S_AXI</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+            </ipxact:instBusPorts>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="Concat_0" version="1.0">
+            <ipxact:xPos>2335</ipxact:xPos>
+            <ipxact:yPos>1681</ipxact:yPos>
+            <ipxact:width>141</ipxact:width>
+            <ipxact:height>132</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="uiFDMA_0" version="1.0">
+            <ipxact:xPos>1046</ipxact:xPos>
+            <ipxact:yPos>487</ipxact:yPos>
+            <ipxact:width>306</ipxact:width>
+            <ipxact:height>340</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts>
+                <ipxact:instBusPort>
+                    <ipxact:name>M_AXI4</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+            </ipxact:instBusPorts>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="video_timing_generator_v01_0" version="1.0">
+            <ipxact:xPos>1795</ipxact:xPos>
+            <ipxact:yPos>1629</ipxact:yPos>
+            <ipxact:width>248</ipxact:width>
+            <ipxact:height>236</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts>
+                <ipxact:instBusPort>
+                    <ipxact:name>AXI_Lite</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+            </ipxact:instBusPorts>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="Constant_1" version="1.0">
+            <ipxact:xPos>247</ipxact:xPos>
+            <ipxact:yPos>30</ipxact:yPos>
+            <ipxact:width>111</ipxact:width>
+            <ipxact:height>80</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="ChipWatcher_0" version="1.0">
+            <ipxact:xPos>2336</ipxact:xPos>
+            <ipxact:yPos>1843</ipxact:yPos>
+            <ipxact:width>139</ipxact:width>
+            <ipxact:height>210</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="AXI_Protocol_Converter_0" version="1.0">
+            <ipxact:xPos>1090</ipxact:xPos>
+            <ipxact:yPos>1353</ipxact:yPos>
+            <ipxact:width>218</ipxact:width>
+            <ipxact:height>132</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts>
+                <ipxact:instBusPort>
+                    <ipxact:name>US_AXI</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>DS_AXI</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+            </ipxact:instBusPorts>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="Utility_Vector_Logic_0" version="1.0">
+            <ipxact:xPos>2642</ipxact:xPos>
+            <ipxact:yPos>1379</ipxact:yPos>
+            <ipxact:width>236</ipxact:width>
+            <ipxact:height>80</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="Constant_3" version="1.0">
+            <ipxact:xPos>247</ipxact:xPos>
+            <ipxact:yPos>617</ipxact:yPos>
+            <ipxact:width>111</ipxact:width>
+            <ipxact:height>80</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="uivtc_0" version="1.0">
+            <ipxact:xPos>2659.5</ipxact:xPos>
+            <ipxact:yPos>1655</ipxact:yPos>
+            <ipxact:width>201</ipxact:width>
+            <ipxact:height>184</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="uihdmi_tx_0" version="1.0">
+            <ipxact:xPos>2999</ipxact:xPos>
+            <ipxact:yPos>1301</ipxact:yPos>
+            <ipxact:width>301</ipxact:width>
+            <ipxact:height>236</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts/>
+        </ipxact:instance>
+        <ipxact:instance vendor="anlogic.com" library="ip" name="uivbuf_0" version="1.0">
+            <ipxact:xPos>2268</ipxact:xPos>
+            <ipxact:yPos>1275</ipxact:yPos>
+            <ipxact:width>275</ipxact:width>
+            <ipxact:height>288</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+            <ipxact:instBusPorts>
+                <ipxact:instBusPort>
+                    <ipxact:name>AXIS_M2S</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>axis_video_in</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>AXIS_S2M</ipxact:name>
+                    <ipxact:isExpanded>false</ipxact:isExpanded>
+                </ipxact:instBusPort>
+                <ipxact:instBusPort>
+                    <ipxact:name>axis_video_out</ipxact:name>
+                    <ipxact:isExpanded>true</ipxact:isExpanded>
+                </ipxact:instBusPort>
+            </ipxact:instBusPorts>
+        </ipxact:instance>
+    </ipxact:instances>
+    <ipxact:designPorts>
+        <ipxact:designPort name="O_ui_clk">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>946</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_ui_rstn">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>492</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_waddr">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>492</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_wareq">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>522</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_wsize">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>552</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_wdata">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>582</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_wready">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>612</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_raddr">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>642</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_rareq">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>672</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_rsize">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>702</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_fdma_rready">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>732</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_fdma_wbusy">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>584.143</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_fdma_wvalid">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>632.714</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_fdma_rbusy">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>681.286</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_fdma_rdata">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>729.857</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_fdma_rvalid">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>778.429</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_mrstn">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>284</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_mwdata">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>886</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_maddr">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>999</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_mweb">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>1025</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_mcsb">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>1051</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_mrdata">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>1077</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_mclk">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>916</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_pixel_clk">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>1267</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_serial_clk">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>1297</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_hdmi_clk_p">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>1379.67</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_hdmi_tx_p">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>1458.33</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="O_refclk">
+            <ipxact:xPos>3411.5</ipxact:xPos>
+            <ipxact:yPos>886</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+        <ipxact:designPort name="I_irq2">
+            <ipxact:xPos>58.5</ipxact:xPos>
+            <ipxact:yPos>1634</ipxact:yPos>
+            <ipxact:width>15</ipxact:width>
+            <ipxact:height>10</ipxact:height>
+            <ipxact:isPin>false</ipxact:isPin>
+        </ipxact:designPort>
+    </ipxact:designPorts>
+    <ipxact:scrollBar>
+        <ipxact:hValue>0</ipxact:hValue>
+        <ipxact:vValue>0</ipxact:vValue>
+    </ipxact:scrollBar>
+    <ipxact:scale>
+        <ipxact:xScale>0.193807</ipxact:xScale>
+        <ipxact:yScale>0.193807</ipxact:yScale>
+    </ipxact:scale>
+</ipxact:position>

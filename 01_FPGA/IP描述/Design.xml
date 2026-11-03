@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:user="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>user</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_system_uivbuf_0</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>uivbuf_87cc5c5f324a_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="user" library="module" name="uivbuf" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="AXI_DATA_WIDTH">64</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="W_BUFDEPTH">2048</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="W_DATAWIDTH">32</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="W_XSIZE">1920</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="W_YSIZE">1080</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="W_XDIV">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="R_BUFDEPTH">2048</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="R_DATAWIDTH">32</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="R_XSIZE">1920</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="R_YSIZE">1080</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="R_XDIV">1</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_ui_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_ui_clk"/>
+                <ipxact:externalPortReference portRef="I_ui_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_ui_rstn</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_ui_rstn"/>
+                <ipxact:externalPortReference portRef="I_ui_rstn"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_W_sync</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_W_sync"/>
+                <ipxact:externalPortReference portRef="I_W_sync"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_W_wclk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_W_wclk"/>
+                <ipxact:externalPortReference portRef="I_W_wclk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_W_tuser</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_W_tuser"/>
+                <ipxact:externalPortReference portRef="I_W_tuser"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_W_tvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_W_tvalid"/>
+                <ipxact:externalPortReference portRef="I_W_tvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_W_tdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_W_tdata"/>
+                <ipxact:externalPortReference portRef="I_W_tdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_W_tlast</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_W_tlast"/>
+                <ipxact:externalPortReference portRef="I_W_tlast"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_W_tready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_W_tready"/>
+                <ipxact:externalPortReference portRef="O_W_tready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_W_tlocked</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_W_tlocked"/>
+                <ipxact:externalPortReference portRef="O_W_tlocked"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_s2mm_tuser</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_s2mm_tuser"/>
+                <ipxact:externalPortReference portRef="O_s2mm_tuser"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_s2mm_tvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_s2mm_tvalid"/>
+                <ipxact:externalPortReference portRef="O_s2mm_tvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_s2mm_tdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_s2mm_tdata"/>
+                <ipxact:externalPortReference portRef="O_s2mm_tdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_s2mm_tready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_s2mm_tready"/>
+                <ipxact:externalPortReference portRef="I_s2mm_tready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_s2mm_tlast</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_s2mm_tlast"/>
+                <ipxact:externalPortReference portRef="O_s2mm_tlast"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_R_sync</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_R_sync"/>
+                <ipxact:externalPortReference portRef="I_R_sync"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_R_rclk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_R_rclk"/>
+                <ipxact:externalPortReference portRef="I_R_rclk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_R_tready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_R_tready"/>
+                <ipxact:externalPortReference portRef="I_R_tready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_R_tuser</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_R_tuser"/>
+                <ipxact:externalPortReference portRef="O_R_tuser"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_R_tvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_R_tvalid"/>
+                <ipxact:externalPortReference portRef="O_R_tvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_R_tdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_R_tdata"/>
+                <ipxact:externalPortReference portRef="O_R_tdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_R_tlast</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_R_tlast"/>
+                <ipxact:externalPortReference portRef="O_R_tlast"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_R_tlocked</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_R_tlocked"/>
+                <ipxact:externalPortReference portRef="O_R_tlocked"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_mm2s_tuser</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_mm2s_tuser"/>
+                <ipxact:externalPortReference portRef="I_mm2s_tuser"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_mm2s_tvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_mm2s_tvalid"/>
+                <ipxact:externalPortReference portRef="I_mm2s_tvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_mm2s_tdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_mm2s_tdata"/>
+                <ipxact:externalPortReference portRef="I_mm2s_tdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_mm2s_tready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="O_mm2s_tready"/>
+                <ipxact:externalPortReference portRef="O_mm2s_tready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_mm2s_tlast</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivbuf_87cc5c5f324a_Inst" portRef="I_mm2s_tlast"/>
+                <ipxact:externalPortReference portRef="I_mm2s_tlast"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <user:device>DR1M90GEG400</user:device>
+        <user:displayname>uivbuf</user:displayname>
+        <user:ipGenVersion value="171484 2025/08/11">1.0</user:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

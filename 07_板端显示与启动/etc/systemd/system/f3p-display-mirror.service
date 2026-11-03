@@ -1,0 +1,22 @@
+# F3P independent desktop mirror; never owns motion or camera services.
+[Unit]
+Description=F3P existing desktop mirror over SSH
+After=display-manager.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -B /opt/f3p-display-mirror/serve-desktop.py
+Restart=on-failure
+RestartSec=3
+KillMode=control-group
+TimeoutStopSec=8
+RuntimeDirectory=f3p-display-mirror
+RuntimeDirectoryMode=0700
+Nice=10
+CPUWeight=10
+NoNewPrivileges=yes
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

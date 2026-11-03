@@ -1,0 +1,349 @@
+{
+  "schema": 1,
+  "name": "actual_arm_cad_20261003",
+  "reference_only": false,
+  "target_frame": "model_endpoint",
+  "model_endpoint_to_tcp": null,
+  "calibration": {
+    "geometry": true,
+    "motor_mapping": true,
+    "joint_limits": true,
+    "tcp": false
+  },
+  "geometry": {
+    "convention": "craig_modified_dh",
+    "transform_order": "Rx(alpha[i]) Tx(a[i]) Rz(q[i] + offset_sign*joint_offsets_deg[i]) Tz(d[i])",
+    "d_mm": [
+      170.0,
+      0.0,
+      0.0,
+      142.3,
+      0.0,
+      39.5
+    ],
+    "a_mm": [
+      0.0,
+      37.5,
+      160.0,
+      15.0,
+      0.0,
+      0.0
+    ],
+    "alpha_deg": [
+      0.0,
+      -90.0,
+      0.0,
+      -90.0,
+      90.0,
+      -90.0
+    ],
+    "joint_offsets_deg": [
+      0.0,
+      90.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "offset_sign": -1
+  },
+  "motor_mapping": {
+    "units": "motor_degrees",
+    "ratios": [
+      285.7142857142857,
+      285.7142857142857,
+      250.0,
+      42.0,
+      22.4,
+      1.0
+    ],
+    "ratio_fractions": [
+      "2000/7",
+      "2000/7",
+      "250",
+      "42",
+      "112/5",
+      "1"
+    ],
+    "directions": [
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "motor_reference_deg": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "joint_reference_deg": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "joint_limits_deg": [
+    [
+      -145.0,
+      105.0
+    ],
+    [
+      -17.0,
+      86.0
+    ],
+    [
+      -93.0,
+      40.0
+    ],
+    [
+      -25.0,
+      238.0
+    ],
+    [
+      -110.0,
+      105.0
+    ],
+    null
+  ],
+  "joint_limits_kind": "calibrated_physical",
+  "solver": {
+    "position_tolerance_mm": 0.05,
+    "orientation_tolerance_deg": 0.02,
+    "orientation_scale_mm": 200.0,
+    "max_iterations": 180,
+    "max_seeds": 16,
+    "max_step_deg": 15.0
+  },
+  "evidence": {
+    "handoff_source": "G:\\CODEX_WORKSPACE_EN\\arm_control_review_20261003\\Arm_Stability_Handoff_Original_Arm_v2.md",
+    "handoff_sha256": "44d3492a1c9c8fd4a38f494dd8ba88c38ba4bd02aa06d36d4375dc76e9478d8e",
+    "motor_archive_source": "G:\\张大头电机\\ZDT_XS系列第二代闭环步进电机资料.zip",
+    "motor_manual_entry": "ZDT_XS系列第二代闭环步进电机资料/3. 说明书/ZDT_X42S第二代闭环步进电机用户手册V1.0.5_260527.pdf",
+    "motor_manual_sha256": "0afae3f30e1a679c0cd425c790b495dee504c352d2afe234cfa474868319ee92",
+    "motor_manual_pages": {
+      "motor_type": 14,
+      "microsteps": 16,
+      "emm_position_fd": 57,
+      "feedback_counts": 72,
+      "read_configuration": 103
+    },
+    "ppr_status": "3200 PPR confirmed from user-provided 1.8 degree / 16 microstep settings and manufacturer Emm protocol; no driver configuration readback was performed.",
+    "joint_limits_source": {
+      "board_path": "/home/uisrc/.config/f3p-control/joint-limits.json",
+      "sha256": "009b422ea8c94dbb779b8e73957421342ba0c6dd98ce9785784ca0f354599486",
+      "bounds_in_current_zero_joint_degrees": {
+        "1": [
+          -105,
+          145
+        ],
+        "2": [
+          -86,
+          17
+        ],
+        "3": [
+          -93,
+          40
+        ],
+        "4": [
+          -238,
+          25
+        ],
+        "5": [
+          -110,
+          105
+        ]
+      },
+      "measured_date": "2026-10-03",
+      "continuous_joints": [
+        6
+      ],
+      "continuous_joint_confirmation": "User confirmed joint 6 has no limit; no fabricated +/-180 physical bound."
+    },
+    "geometry_source": "6-axis-manipulator-main.zip / Assem4_v2.SLDASM / cylindrical axes and reference planes",
+    "geometry_archive_sha256": "6796ee82d531d905c77bdbd80b4ef9a0bcf287bdc0f9c0b1adcacb632e5deb61",
+    "geometry_assembly_sha256": "2cf5e9a45cd5a8525fdd01651d2a996c37930b4e7e143c44d12f3905f86d6e5c",
+    "geometry_evidence_files": {
+      "logs/assembly-geometry.json": "6d2b0f7a1d0ee7bf1a66bfd21f5dfddc80f893b92b52e64c13d5f44106044961",
+      "logs/assembly-reference-planes.json": "194c04a3c91ff51ffbe285f31d5b871de5d5d229d57475f09c7ccd42620f8ea9",
+      "analysis-review/independent-dimension-review.json": "f2970210af8324a14ed9b8e2a89a042f00f023cfc488daa45f84aca3772fab6d",
+      "analysis-review/independent-plane-review.json": "a118a156f3162bc766236d5215281194f57e51792432b0ccac3ede951ba226a0"
+    },
+    "nominal_dimensions_mm": {
+      "shoulder_height": 170.0,
+      "shoulder_radial_offset": 37.5,
+      "upper_arm": 160.0,
+      "elbow_offset": 15.0,
+      "forearm_to_wrist": 142.3,
+      "wrist_to_motor_shaft_end": 39.5
+    },
+    "chosen_model_zero_endpoint_mm": [
+      219.3,
+      0.0,
+      345.0
+    ],
+    "chosen_model_zero_rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "zero_axes_base": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "nominal_zero_axis_points_mm": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        37.5,
+        0,
+        170
+      ],
+      [
+        37.5,
+        0,
+        330
+      ],
+      [
+        37.5,
+        0,
+        345
+      ],
+      [
+        179.8,
+        0,
+        345
+      ],
+      [
+        179.8,
+        0,
+        345
+      ]
+    ],
+    "convention_status": "Craig modified DH with a[1]=37.5 includes the newly measured shoulder offset. Geometric zero and motor sign convention preserve prior user-confirmed standard posture and directions; CAD residuals are not absorbed into nominal link dimensions.",
+    "mapping_status": "Reducer/gearing ratios, motor pulse settings and six motor directions retained from user confirmations. Power-on zero association is acquired and validated at runtime; no live session is embedded in this profile.",
+    "tcp_status": "39.5 mm reaches the J6 motor output shaft end center. No gripper or external tool TCP is assumed.",
+    "calibration_status": "CAD nominal geometric reconstruction accepted for this model. This is not a physical accuracy calibration or a live positioning validation.",
+    "omitted_cad_alignment_residuals_mm": {
+      "elbow_bearing_to_hub": 0.2,
+      "j6_accessory_bore_to_motor_axis": 0.4702848279
+    }
+  },
+  "parameter_confirmation": {
+    "date": "2026-10-03",
+    "geometry_values_confirmed": true,
+    "geometry_confirmation_method": "User requested reconstruction using the supplied actual CAD assembly and parts (2026-10-03).",
+    "ratios_confirmed": true,
+    "ratio_confirmation_method": "User confirmed installed reducers and small driving gears / large driven gears; joint 6 direct motor output.",
+    "motor_settings_confirmed": true,
+    "motor_settings_confirmation_method": "User explicitly confirmed all motors use 1.8 degree step angle and 16 microsteps.",
+    "physical_kinematic_calibration_performed": false,
+    "physical_tcp_confirmed": false,
+    "motion_test_performed": false,
+    "continuous_joints_confirmed": [
+      6
+    ],
+    "continuous_joints_confirmation_method": "User explicitly stated: joint 6 has no limit (2026-10-03).",
+    "joint_limit_policy_confirmed": true,
+    "standard_zero_confirmed": true,
+    "directions_confirmed": true,
+    "standard_zero_confirmation_method": "User confirmed on 2026-10-04 that shutdown returns to standard zero and the initial power-on position is the standard zero. Runtime feedback and session provenance are validated separately.",
+    "directions_confirmation_method": "User explicitly confirmed all six physical directions match the original reference.",
+    "geometry_source_kind": "cad_nominal_axes_and_planes",
+    "current_board_zero_verified": false,
+    "endpoint_selection": "motor_output_shaft_end_center",
+    "endpoint_selection_method": "Explicitly stated implementation default; external tool TCP remains unconfigured."
+  },
+  "execution": {
+    "pulses_per_rev": {
+      "1": 3200,
+      "2": 3200,
+      "3": 3200,
+      "4": 3200,
+      "5": 3200,
+      "6": 3200
+    },
+    "pulses_per_rev_verified": true,
+    "pulses_per_rev_verification": {
+      "method": "user_confirmed_motor_settings_and_manufacturer_manual",
+      "date": "2026-10-03",
+      "full_step_angle_deg": 1.8,
+      "microsteps": 16,
+      "calculation": "(360 / 1.8) * 16 = 3200 position-command pulses per motor revolution",
+      "read_back_from_driver": false,
+      "applies_to": "Emm firmware FD / FC pulse-position commands",
+      "encoder_feedback_counts_per_rev": 65536,
+      "encoder_feedback_is_not_position_command_ppr": true
+    },
+    "zero_binding_policy": "The user-approved standard zero is the power-on position after a successful console return-to-zero shutdown. Automatically bind only a complete, healthy six-axis power-on zero session. Preserve the same verified zero across console restarts in the same boot. Manual zero changes invalidate automatic Cartesian binding. Do not carry historical boot/session bindings in this model.",
+    "zero_binding_mode": "power_on_position"
+  },
+  "continuous_joints": [
+    6
+  ],
+  "display": {
+    "name": "实际机械臂 · CAD 2026-10-03",
+    "endpoint": "六轴电机轴端中心",
+    "base_frame": "原点：底部安装面与 J1 轴线交点；零位 +X 朝前臂伸出，+Z 向上，+Y 按右手系",
+    "orientation": "RPY = Rz(Yaw) Ry(Pitch) Rx(Roll)；零位末端 +Z 朝基座 +X",
+    "geometry_summary": "肩高 170 · 肩偏置 37.5 · 大臂 160 · 肘偏置 15 · 前臂 142.3 · 轴端 39.5 mm",
+    "validation_note": "已按 CAD 重建名义几何；尚未验证实物定位精度，工具尖端未定义。"
+  },
+  "release_status": {
+    "date": "2026-10-03",
+    "installed": false,
+    "board_connected": false,
+    "hardware_commands_sent": false,
+    "physical_positioning_tested": false
+  }
+}

@@ -1,0 +1,18 @@
+[Unit]
+Description=F3P independent read-only camera viewer
+After=network.target
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -B /opt/f3p-display-mirror/camera-stream.py
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateDevices=true
+PrivateTmp=true
+RuntimeDirectory=f3p-camera-stream
+RuntimeDirectoryMode=0700
+RestrictAddressFamilies=AF_INET AF_UNIX
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:address xmlns:xsi="http" xmlns:ipxact="http" xmlns:anlogic="http" xsi:schemaLocation="http">
+    <ipxact:addressSources>
+        <ipxact:addressSource type="inst">
+            <ipxact:name>ARM Processor System</ipxact:name>
+            <ipxact:displayName>ARM_Processor_System_0</ipxact:displayName>
+            <ipxact:interfaceName>M_AXI_GP0</ipxact:interfaceName>
+            <ipxact:baseAddress>0x80000000</ipxact:baseAddress>
+            <ipxact:addressDests>
+                <ipxact:addressDest type="inst">
+                    <ipxact:name>VDMA</ipxact:name>
+                    <ipxact:displayName>VDMA_0</ipxact:displayName>
+                    <ipxact:interfaceName>S_AXI_LITE</ipxact:interfaceName>
+                    <ipxact:slaveSegName>seg0</ipxact:slaveSegName>
+                    <ipxact:baseAddress>0x0000000080100000</ipxact:baseAddress>
+                    <ipxact:highAddress>0x0000000080100FFF</ipxact:highAddress>
+                </ipxact:addressDest>
+                <ipxact:addressDest type="inst">
+                    <ipxact:name>video_timing_generator_v01</ipxact:name>
+                    <ipxact:displayName>video_timing_generator_v01_0</ipxact:displayName>
+                    <ipxact:interfaceName>AXI_Lite</ipxact:interfaceName>
+                    <ipxact:slaveSegName>seg0</ipxact:slaveSegName>
+                    <ipxact:baseAddress>0x0000000080200000</ipxact:baseAddress>
+                    <ipxact:highAddress>0x0000000080201FFF</ipxact:highAddress>
+                </ipxact:addressDest>
+            </ipxact:addressDests>
+        </ipxact:addressSource>
+        <ipxact:addressSource type="inst">
+            <ipxact:name>ARM Processor System</ipxact:name>
+            <ipxact:displayName>ARM_Processor_System_0</ipxact:displayName>
+            <ipxact:interfaceName>M_AXI_GP1</ipxact:interfaceName>
+            <ipxact:baseAddress>0xA0000000</ipxact:baseAddress>
+            <ipxact:addressDests>
+                <ipxact:addressDest type="inst">
+                    <ipxact:name>AXI ERAM Controller</ipxact:name>
+                    <ipxact:displayName>AXI_ERAM_Controller_0</ipxact:displayName>
+                    <ipxact:interfaceName>S_AXI</ipxact:interfaceName>
+                    <ipxact:slaveSegName>reg</ipxact:slaveSegName>
+                    <ipxact:baseAddress>0xA0000000</ipxact:baseAddress>
+                    <ipxact:highAddress>0x00000000BFFFFFFF</ipxact:highAddress>
+                </ipxact:addressDest>
+            </ipxact:addressDests>
+        </ipxact:addressSource>
+    </ipxact:addressSources>
+</ipxact:address>

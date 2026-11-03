@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:user="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>user</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_system_uivtc_0</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>uivtc_717760ec1b25_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="user" library="module" name="uivtc" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="H_ActiveSize">1920</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="H_FrameSize">2074</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="H_SyncStart">2008</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="H_SyncEnd">2052</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="V_ActiveSize">1080</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="V_FrameSize">1125</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="V_SyncStart">1084</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="V_SyncEnd">1089</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_vtc_rstn</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivtc_717760ec1b25_Inst" portRef="I_vtc_rstn"/>
+                <ipxact:externalPortReference portRef="I_vtc_rstn"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_vtc_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivtc_717760ec1b25_Inst" portRef="I_vtc_clk"/>
+                <ipxact:externalPortReference portRef="I_vtc_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_vtc_vs</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivtc_717760ec1b25_Inst" portRef="O_vtc_vs"/>
+                <ipxact:externalPortReference portRef="O_vtc_vs"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_vtc_hs</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivtc_717760ec1b25_Inst" portRef="O_vtc_hs"/>
+                <ipxact:externalPortReference portRef="O_vtc_hs"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_vtc_de_valid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivtc_717760ec1b25_Inst" portRef="O_vtc_de_valid"/>
+                <ipxact:externalPortReference portRef="O_vtc_de_valid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_vtc_user</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivtc_717760ec1b25_Inst" portRef="O_vtc_user"/>
+                <ipxact:externalPortReference portRef="O_vtc_user"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_vtc_last</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uivtc_717760ec1b25_Inst" portRef="O_vtc_last"/>
+                <ipxact:externalPortReference portRef="O_vtc_last"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <user:device>DR1M90GEG400</user:device>
+        <user:displayname>uivtc</user:displayname>
+        <user:ipGenVersion value="171484 2025/08/11">1.0</user:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

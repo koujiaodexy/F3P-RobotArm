@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_system_AXI_ERAM_Controller_0</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>axi_eram_controller_5b6ef5c4c4bd_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="AXI_ERAM_Controller" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="AXI_ID_WIDTH">12</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AXI_DATA_WIDTH">32</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="AXI_ADDR_WIDTH">10</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OOR_ERR_EN">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MEM_SIZE_RF">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="SLAVE_MSB">9</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MEM_ADDR_LSB">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MEM_ADDR_MSB">9</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MEM_ADDR_WIDTH">8</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MEM_SIZE_DISP">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MEM_SIZE_KB">64'd1</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>awid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="awid"/>
+                <ipxact:externalPortReference portRef="awid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>awaddr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="awaddr"/>
+                <ipxact:externalPortReference portRef="awaddr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>awlen</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="awlen"/>
+                <ipxact:externalPortReference portRef="awlen"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>awsize</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="awsize"/>
+                <ipxact:externalPortReference portRef="awsize"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>awburst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="awburst"/>
+                <ipxact:externalPortReference portRef="awburst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>awlock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="awlock"/>
+                <ipxact:externalPortReference portRef="awlock"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>awvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="awvalid"/>
+                <ipxact:externalPortReference portRef="awvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>awready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="awready"/>
+                <ipxact:externalPortReference portRef="awready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>wdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="wdata"/>
+                <ipxact:externalPortReference portRef="wdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>wstrb</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="wstrb"/>
+                <ipxact:externalPortReference portRef="wstrb"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>wvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="wvalid"/>
+                <ipxact:externalPortReference portRef="wvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>wready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="wready"/>
+                <ipxact:externalPortReference portRef="wready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>bid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="bid"/>
+                <ipxact:externalPortReference portRef="bid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>bresp</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="bresp"/>
+                <ipxact:externalPortReference portRef="bresp"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>bvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="bvalid"/>
+                <ipxact:externalPortReference portRef="bvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>bready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="bready"/>
+                <ipxact:externalPortReference portRef="bready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>arid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="arid"/>
+                <ipxact:externalPortReference portRef="arid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>araddr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="araddr"/>
+                <ipxact:externalPortReference portRef="araddr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>arlen</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="arlen"/>
+                <ipxact:externalPortReference portRef="arlen"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>arsize</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="arsize"/>
+                <ipxact:externalPortReference portRef="arsize"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>arburst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="arburst"/>
+                <ipxact:externalPortReference portRef="arburst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>arlock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="arlock"/>
+                <ipxact:externalPortReference portRef="arlock"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>arvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="arvalid"/>
+                <ipxact:externalPortReference portRef="arvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>arready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="arready"/>
+                <ipxact:externalPortReference portRef="arready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="rid"/>
+                <ipxact:externalPortReference portRef="rid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rdata</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="rdata"/>
+                <ipxact:externalPortReference portRef="rdata"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rresp</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="rresp"/>
+                <ipxact:externalPortReference portRef="rresp"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rlast</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="rlast"/>
+                <ipxact:externalPortReference portRef="rlast"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rvalid</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="rvalid"/>
+                <ipxact:externalPortReference portRef="rvalid"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>rready</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="rready"/>
+                <ipxact:externalPortReference portRef="rready"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mem_addr</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="mem_addr"/>
+                <ipxact:externalPortReference portRef="mem_addr"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mem_web</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="mem_web"/>
+                <ipxact:externalPortReference portRef="mem_web"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mem_csb</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="mem_csb"/>
+                <ipxact:externalPortReference portRef="mem_csb"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mem_din</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="mem_din"/>
+                <ipxact:externalPortReference portRef="mem_din"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>mem_dout</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="mem_dout"/>
+                <ipxact:externalPortReference portRef="mem_dout"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>aclk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="aclk"/>
+                <ipxact:externalPortReference portRef="aclk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>aresetn</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="axi_eram_controller_5b6ef5c4c4bd_Inst" portRef="aresetn"/>
+                <ipxact:externalPortReference portRef="aresetn"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic:device>DR1M90GEG400</anlogic:device>
+        <anlogic:displayname>AXI ERAM Controller</anlogic:displayname>
+        <anlogic:ipGenVersion value="168007 2025/07/10">1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

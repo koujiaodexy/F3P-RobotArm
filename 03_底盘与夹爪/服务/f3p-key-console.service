@@ -1,0 +1,17 @@
+[Unit]
+Description=F3P key OLED wheel PID and automatic gripper owner
+After=local-fs.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/f3p-key-console/current
+ExecStart=/opt/f3p-key-console/current/bin/f3p_key_console --run
+Restart=on-failure
+RestartSec=2
+TimeoutStopSec=3
+KillMode=control-group
+LimitRTPRIO=30
+LimitMEMLOCK=infinity
+
+[Install]
+WantedBy=multi-user.target

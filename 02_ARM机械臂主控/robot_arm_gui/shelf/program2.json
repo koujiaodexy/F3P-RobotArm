@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "offline_only": true,
+  "program": 2,
+  "provider": "color",
+  "enabled_colors": [
+    "red",
+    "yellow",
+    "green"
+  ],
+  "future_providers": {
+    "coco18": {
+      "enabled": false,
+      "reason": "Requires object grasp calibration and validated execution adapter"
+    }
+  },
+  "station_quantity": 1,
+  "station_wait_s": 1.0,
+  "settle_s": 0.25,
+  "stable_frames": 3,
+  "stable_pixel_radius": 20.0,
+  "vision_max_age_s": 0.35,
+  "vision_wait_s": 3.0,
+  "seek_speed_mm_s": 30.0,
+  "seek_max_mm": 300.0,
+  "seek_timeout_s": 15.0,
+  "grasp_timeout_s": 120.0,
+  "mission_timeout_s": 600.0,
+  "status_max_age_s": 0.2,
+  "travel": [
+    {
+      "forward_mm": 700
+    },
+    {
+      "station": 1,
+      "record": "X"
+    },
+    {
+      "forward_mm": 520,
+      "subtract": "X"
+    },
+    {
+      "station": 2,
+      "record": "Y"
+    },
+    {
+      "forward_mm": 520,
+      "subtract": "Y"
+    },
+    {
+      "station": 3,
+      "record": "Z"
+    },
+    {
+      "left_deg": -180
+    },
+    {
+      "forward_mm": 2000,
+      "add": "Z"
+    },
+    {
+      "left_deg": 45
+    },
+    {
+      "forward_mm": 500
+    },
+    {
+      "left_deg": -45
+    }
+  ],
+  "keymap": {
+    "KEY1": "Reset only when idle/stopped/done/fault and outputs confirmed zero",
+    "KEY2": "Physical start only; requires PC disconnected",
+    "KEY3": "Display page only",
+    "KEY4": "Stop all actions immediately; no automatic resume"
+  },
+  "workspace_policy": "current_calibration_full_pick_place_preflight"
+}

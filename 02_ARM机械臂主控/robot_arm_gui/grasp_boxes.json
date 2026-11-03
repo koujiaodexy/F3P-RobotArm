@@ -1,0 +1,53 @@
+{
+  "source": "D:\\\u5fae\u4fe1\u804a\u5929\u6570\u636e\\xwechat_files\\wxid_qa1lz88x8g2p12_ccad\\temp\\RWTemp\\2026-10\\9e20f478899dc29eb19741386f9343c8\\Assem4_v2 (1).step",
+  "source_sha256": "c630d9b2a79e69835b7d5c236c5a0c9c0a4a96a39d642ca383dae86e309cece5",
+  "base_origin_in_step_mm": [
+    151.365177819,
+    15.0,
+    0.0
+  ],
+  "axes": "X toward front boxes, Y toward car left, Z up",
+  "order": "car left to right: red, yellow, green",
+  "boxes": {
+    "red": {
+      "center_xy_mm": [
+        175.16650631,
+        70.0
+      ],
+      "rim_z_mm": 50.0,
+      "opening_mm": [
+        54.0,
+        54.0
+      ]
+    },
+    "yellow": {
+      "center_xy_mm": [
+        175.16650631,
+        0.0
+      ],
+      "rim_z_mm": 50.0,
+      "opening_mm": [
+        54.0,
+        54.0
+      ]
+    },
+    "green": {
+      "center_xy_mm": [
+        175.16650631,
+        -70.0
+      ],
+      "rim_z_mm": 50.0,
+      "opening_mm": [
+        54.0,
+        54.0
+      ]
+    }
+  },
+  "tool_local_mm": [
+    0.0,
+    10.0,
+    100.0
+  ],
+  "release_tip_above_rim_mm": 10.0,
+  "physical_accuracy_verified": false
+}

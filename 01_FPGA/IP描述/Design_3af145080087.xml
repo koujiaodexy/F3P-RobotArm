@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:user="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>user</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_system_uihdmi_tx_0</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>uihdmi_tx_f35618f15643_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="user" library="module" name="uihdmi_tx" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="DEVICE">&quot;DR1&quot;</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_pixel_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="I_pixel_clk"/>
+                <ipxact:externalPortReference portRef="I_pixel_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_serial_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="I_serial_clk"/>
+                <ipxact:externalPortReference portRef="I_serial_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_rst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="I_rst"/>
+                <ipxact:externalPortReference portRef="I_rst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_video_in_data</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="I_video_in_data"/>
+                <ipxact:externalPortReference portRef="I_video_in_data"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_video_in_de</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="I_video_in_de"/>
+                <ipxact:externalPortReference portRef="I_video_in_de"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_video_in_vs</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="I_video_in_vs"/>
+                <ipxact:externalPortReference portRef="I_video_in_vs"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>I_video_in_hs</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="I_video_in_hs"/>
+                <ipxact:externalPortReference portRef="I_video_in_hs"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_hdmi_clk_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="O_hdmi_clk_p"/>
+                <ipxact:externalPortReference portRef="O_hdmi_clk_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>O_hdmi_tx_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="uihdmi_tx_f35618f15643_Inst" portRef="O_hdmi_tx_p"/>
+                <ipxact:externalPortReference portRef="O_hdmi_tx_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <user:device>DR1M90GEG400</user:device>
+        <user:displayname>uihdmi_tx</user:displayname>
+        <user:ipGenVersion value="171484 2025/08/11">1.0</user:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

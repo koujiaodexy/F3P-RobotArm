@@ -1,0 +1,609 @@
+{
+  "classes": [
+    {
+      "index": 0,
+      "id": "BACKGROUND",
+      "name": "静音或噪声",
+      "phrases": [],
+      "action": null,
+      "motion_confirmation_required": false
+    },
+    {
+      "index": 1,
+      "id": "UNKNOWN",
+      "name": "非指令或否定句",
+      "phrases": [],
+      "action": null,
+      "motion_confirmation_required": false
+    },
+    {
+      "index": 2,
+      "id": "STOP",
+      "name": "停止",
+      "phrases": [
+        "停止",
+        "立即停止",
+        "全部停止"
+      ],
+      "action": "stop_all",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 3,
+      "id": "CANCEL",
+      "name": "取消",
+      "phrases": [
+        "取消",
+        "取消任务",
+        "取消操作"
+      ],
+      "action": "cancel_pending",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 4,
+      "id": "HOME",
+      "name": "回零",
+      "phrases": [
+        "回零",
+        "机械臂回零",
+        "全部回零"
+      ],
+      "action": "home_all",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 5,
+      "id": "ENABLE",
+      "name": "使能",
+      "phrases": [
+        "使能电机",
+        "电机使能",
+        "开启使能"
+      ],
+      "action": "enable_selected",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 6,
+      "id": "DISABLE",
+      "name": "失能",
+      "phrases": [
+        "电机失能",
+        "关闭使能",
+        "解除使能"
+      ],
+      "action": "disable_selected",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 7,
+      "id": "STATUS",
+      "name": "查询状态",
+      "phrases": [
+        "查询状态",
+        "当前状态",
+        "查看机械臂状态"
+      ],
+      "action": "get_control_state",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 8,
+      "id": "REFRESH_ANGLES",
+      "name": "读取角度",
+      "phrases": [
+        "读取角度",
+        "刷新角度",
+        "查询关节角度"
+      ],
+      "action": "refresh_angles",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 9,
+      "id": "CAPTURE_POSE",
+      "name": "记录姿态",
+      "phrases": [
+        "记录姿态",
+        "保存当前姿态",
+        "添加示教点"
+      ],
+      "action": "capture_pose",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 10,
+      "id": "PLAY_TEACHING",
+      "name": "回放示教",
+      "phrases": [
+        "回放示教",
+        "执行示教",
+        "开始示教回放"
+      ],
+      "action": "play_teaching",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 11,
+      "id": "PREVIEW_TEACHING",
+      "name": "预览示教",
+      "phrases": [
+        "预览示教",
+        "查看示教轨迹",
+        "显示示教线路"
+      ],
+      "action": "preview_teaching",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 12,
+      "id": "PREPARE_CANVAS",
+      "name": "检查线路",
+      "phrases": [
+        "检查线路",
+        "校验当前线路",
+        "规划当前轨迹"
+      ],
+      "action": "prepare_canvas",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 13,
+      "id": "EXECUTE_CANVAS",
+      "name": "执行当前线路",
+      "phrases": [
+        "执行当前线路",
+        "运行画布线路",
+        "开始执行轨迹"
+      ],
+      "action": "execute_canvas",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 14,
+      "id": "SAVE_CANVAS",
+      "name": "保存线路",
+      "phrases": [
+        "保存线路",
+        "保存当前线路",
+        "保存画布"
+      ],
+      "action": "save_canvas",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 15,
+      "id": "LOAD_CANVAS",
+      "name": "加载线路",
+      "phrases": [
+        "加载线路",
+        "打开线路文件",
+        "载入画布"
+      ],
+      "action": "load_canvas",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 16,
+      "id": "RUN_ROUTE_1",
+      "name": "执行线路一",
+      "phrases": [
+        "执行线路一",
+        "运行一号线路",
+        "开始第一条线路"
+      ],
+      "action": "run_saved_route:1",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 17,
+      "id": "RUN_ROUTE_2",
+      "name": "执行线路二",
+      "phrases": [
+        "执行线路二",
+        "运行二号线路",
+        "开始第二条线路"
+      ],
+      "action": "run_saved_route:2",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 18,
+      "id": "RUN_ROUTE_3",
+      "name": "执行线路三",
+      "phrases": [
+        "执行线路三",
+        "运行三号线路",
+        "开始第三条线路"
+      ],
+      "action": "run_saved_route:3",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 19,
+      "id": "RUN_ROUTE_4",
+      "name": "执行线路四",
+      "phrases": [
+        "执行线路四",
+        "运行四号线路",
+        "开始第四条线路"
+      ],
+      "action": "run_saved_route:4",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 20,
+      "id": "RUN_ROUTE_5",
+      "name": "执行线路五",
+      "phrases": [
+        "执行线路五",
+        "运行五号线路",
+        "开始第五条线路"
+      ],
+      "action": "run_saved_route:5",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 21,
+      "id": "SPEED_LOW",
+      "name": "低速",
+      "phrases": [
+        "切换低速",
+        "设置低速",
+        "使用低速档"
+      ],
+      "action": "speed_preset:low",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 22,
+      "id": "SPEED_NORMAL",
+      "name": "中速",
+      "phrases": [
+        "切换中速",
+        "设置中速",
+        "使用中速档"
+      ],
+      "action": "speed_preset:normal",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 23,
+      "id": "SPEED_HIGH",
+      "name": "高速",
+      "phrases": [
+        "切换高速",
+        "设置高速",
+        "使用高速档"
+      ],
+      "action": "speed_preset:high",
+      "motion_confirmation_required": true,
+      "executed": false
+    },
+    {
+      "index": 24,
+      "id": "JOINT_1",
+      "name": "选择一号关节",
+      "phrases": [
+        "选择一号关节",
+        "切换第一关节",
+        "选中一号电机"
+      ],
+      "action": "select_joint:1",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 25,
+      "id": "JOINT_2",
+      "name": "选择二号关节",
+      "phrases": [
+        "选择二号关节",
+        "切换第二关节",
+        "选中二号电机"
+      ],
+      "action": "select_joint:2",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 26,
+      "id": "JOINT_3",
+      "name": "选择三号关节",
+      "phrases": [
+        "选择三号关节",
+        "切换第三关节",
+        "选中三号电机"
+      ],
+      "action": "select_joint:3",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 27,
+      "id": "JOINT_4",
+      "name": "选择四号关节",
+      "phrases": [
+        "选择四号关节",
+        "切换第四关节",
+        "选中四号电机"
+      ],
+      "action": "select_joint:4",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 28,
+      "id": "JOINT_5",
+      "name": "选择五号关节",
+      "phrases": [
+        "选择五号关节",
+        "切换第五关节",
+        "选中五号电机"
+      ],
+      "action": "select_joint:5",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 29,
+      "id": "JOINT_6",
+      "name": "选择六号关节",
+      "phrases": [
+        "选择六号关节",
+        "切换第六关节",
+        "选中六号电机"
+      ],
+      "action": "select_joint:6",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 30,
+      "id": "SHOW_CONTROL",
+      "name": "打开控制页",
+      "phrases": [
+        "打开控制页",
+        "切换电机控制",
+        "显示控制界面"
+      ],
+      "action": "show_page:control",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 31,
+      "id": "SHOW_POSITION",
+      "name": "打开定位页",
+      "phrases": [
+        "打开定位页",
+        "切换位置控制",
+        "显示定位界面"
+      ],
+      "action": "show_page:position",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 32,
+      "id": "SHOW_DRAWING",
+      "name": "打开绘图页",
+      "phrases": [
+        "打开绘图页",
+        "切换绘图页面",
+        "显示画布界面"
+      ],
+      "action": "show_page:drawing",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 33,
+      "id": "SHOW_TEACHING",
+      "name": "打开示教页",
+      "phrases": [
+        "打开示教页",
+        "切换示教页面",
+        "显示示教界面"
+      ],
+      "action": "show_page:teaching",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 34,
+      "id": "OPEN_VISION",
+      "name": "打开视觉",
+      "phrases": [
+        "打开视觉",
+        "打开相机页面",
+        "显示视觉界面"
+      ],
+      "action": "open_vision",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 35,
+      "id": "VIEW_LOGS",
+      "name": "查看日志",
+      "phrases": [
+        "查看日志",
+        "打开日志",
+        "查看记录文件"
+      ],
+      "action": "view_logs",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 36,
+      "id": "START_LOGGING",
+      "name": "开始记录",
+      "phrases": [
+        "开始记录",
+        "开始记录日志",
+        "启动数据记录"
+      ],
+      "action": "start_logging",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 37,
+      "id": "END_LOGGING",
+      "name": "结束记录",
+      "phrases": [
+        "结束记录",
+        "停止记录日志",
+        "导出记录数据"
+      ],
+      "action": "end_logging",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 38,
+      "id": "CONFIRM",
+      "name": "确认",
+      "phrases": [
+        "确认",
+        "确定操作",
+        "确认这个任务"
+      ],
+      "action": "confirm_proposal_only",
+      "motion_confirmation_required": false,
+      "executed": false
+    },
+    {
+      "index": 39,
+      "id": "REJECT",
+      "name": "拒绝",
+      "phrases": [
+        "拒绝",
+        "不执行",
+        "放弃这个任务"
+      ],
+      "action": "reject_proposal",
+      "motion_confirmation_required": false,
+      "executed": false
+    }
+  ],
+  "unknown_texts": [
+    "今天天气很好",
+    "请问现在几点了",
+    "这个东西是什么颜色",
+    "机械臂已经准备好了",
+    "我正在测试语音模型",
+    "桌上有一个蓝色积木",
+    "红色的盒子在旁边",
+    "我没有让你移动",
+    "现在只是说话测试",
+    "请再说一遍",
+    "打开窗户",
+    "播放音乐",
+    "今天下午去哪里",
+    "明天再来测试",
+    "这是语音识别实验",
+    "语音识别不要误触发",
+    "停止这个词怎么读",
+    "我说的是回零这个词",
+    "如果执行线路会发生什么",
+    "这个按钮是用来使能的吗",
+    "上一条指令是什么",
+    "请解释一下保存线路",
+    "线路一和线路二有什么区别",
+    "刚才为什么停止",
+    "不要回零",
+    "不要使能电机",
+    "不要关闭使能",
+    "不要执行当前线路",
+    "不要回放示教",
+    "不要运行一号线路",
+    "暂时不要开始记录",
+    "还不能切换高速",
+    "我不是让你执行",
+    "不要保存当前线路",
+    "不要加载线路",
+    "不要停止",
+    "不要取消",
+    "先别执行线路二",
+    "不是执行线路三",
+    "停止这个操作的讨论",
+    "暂停运动",
+    "继续运动",
+    "张开夹爪",
+    "闭合夹爪",
+    "抓取红色积木",
+    "抓取蓝色积木",
+    "向左移动",
+    "向右移动",
+    "向上移动",
+    "向下移动",
+    "设置零点",
+    "修改标定",
+    "直接关机",
+    "不要电机失能",
+    "不要查询状态",
+    "不要读取角度",
+    "不要记录姿态",
+    "不要预览示教",
+    "不要检查线路",
+    "不要保存线路",
+    "不要执行线路一",
+    "不要执行线路二",
+    "不要执行线路三",
+    "不要执行线路四",
+    "不要执行线路五",
+    "不要切换低速",
+    "不要切换中速",
+    "不要切换高速",
+    "不要选择一号关节",
+    "不要选择二号关节",
+    "不要选择三号关节",
+    "不要选择四号关节",
+    "不要选择五号关节",
+    "不要选择六号关节",
+    "不要打开控制页",
+    "不要打开定位页",
+    "不要打开绘图页",
+    "不要打开示教页",
+    "不要打开视觉",
+    "不要查看日志",
+    "不要开始记录",
+    "不要结束记录",
+    "不要确认"
+  ],
+  "scope": "Current functions only; no automatic robot execution",
+  "unimplemented_semantics": [
+    "motion_pause",
+    "motion_resume",
+    "gripper",
+    "color_picking",
+    "freeform_direction_motion"
+  ],
+  "route_slots_require_explicit_catalog_binding": true,
+  "voice_confirmation_authorizes_motion": false
+}

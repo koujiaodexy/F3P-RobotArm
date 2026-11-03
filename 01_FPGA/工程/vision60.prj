@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Version="3" Minor="2" RunTime="2025-10-10T18:13:41">
+  <Project_Created_Time />
+  <TD_Version>6.2.175876</TD_Version>
+  <Name>vision60</Name>
+  <HardWare>
+    <Family>DR1</Family>
+    <Device>DR1M90GEG400</Device>
+    <Speed>-2</Speed>
+  </HardWare>
+  <Source_Files>
+    <Verilog>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/coordinated-ptp-20261030/RTL/zdt_x42s_runtime.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="1" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/can_classic_core.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="2" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/coordinated-ptp-20261030/RTL/robot_arm_system_top.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="3" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/ps-linux/integrated-hdmi-can/td/soc_prj/uisrc/03_ip/uitpg/uitpg.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="4" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/ps-linux/integrated-hdmi-can/td/soc_prj/uisrc/03_ip/uivtc/uivtc.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="5" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/trajectory_stream.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="8" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/es8388_capture.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="9" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/camera_pll.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="10" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/camera_phy_pll.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="11" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/imx415_init.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="12" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/camera_frame_store.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="13" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/imx415_camera.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="14" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/al_ip/mipi_rx/rx_clk_gen.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="15" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/al_ip/mipi_rx/mipi_dphy_rx_over_lvds_wrapper.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="16" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/al_ip/mipi_rx/data_lane_rx_wrapper.enc.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="18" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_csi_raw/ui_csi_unpacket_4lane.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="20" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_csi_raw/ui_raw10_unpacket_4lane.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="21" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_csi_raw/ui_image_correction.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="22" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_imx415_cfg/ui_imx415_reg.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="23" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera_video_dma.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/camera_video_tone.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera_dbuf.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_isp/ui_demosaic/ui_bilinear_interpolation.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_isp/ui_demosaic/ui_line_buffer_demosaic.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_isp/ui_demosaic/ui_mipi_to_raw_converter.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_isp/ui_demosaic/ui_raw_matrix_3x3_buffer.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_isp/ui_demosaic/ui_top_demosaic.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_isp/ui_demosaic/ui_zhenghe.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_dbuf/sfifo/sfifo.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera_color_accel.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="70" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_async_fifo.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="71" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_compact_dma.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="72" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_gaussian.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="73" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_hsv.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="74" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_morph.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="75" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_pack.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="76" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_preprocess.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="77" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_sampler.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="78" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_window3x3.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="79" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/RTL/vision_write_arbiter.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="80" />
+        </FileInfo>
+      </File>
+    <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/fpga-direct-preview-20261019/candidate/RTL/vision_result_osd.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="100" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera_window_preview.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="110" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera_read_arbiter.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="111" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/vision_window_osd.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="112" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera_sfifo.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="2000" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera_compact_dma.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="2001" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera_dma_diagnostics.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="2002" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/shelf-pwm80-20261028/RTL/car_io.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="2100" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/oled_i2c.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="2101" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/jy61p_uart.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="2102" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/gripper_pwm.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="2103" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/shelf-pwm80-20261028/RTL/f3p_axi_arbiter.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="2200" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/shelf-pwm80-20261028/RTL/f3p_gp1_softnpu_bridge.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="2201" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/shelf-pwm80-20261028/RTL/video_npu_top.enc.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="2202" /></FileInfo></File><File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/shelf-pwm80-20261028/RTL/al_axi_clock_converter.v"><FileInfo><Attr Name="UsedInSyn" Val="true" /><Attr Name="UsedInP&amp;R" Val="true" /><Attr Name="BelongTo" Val="design_1" /><Attr Name="CompileOrder" Val="2203" /></FileInfo></File></Verilog>
+    <ADC_FILE>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/car-integration/RTL/camera-car-pin.adc">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="constraint_1" />
+          <Attr Name="CompileOrder" Val="1" />
+        </FileInfo>
+      </File>
+    </ADC_FILE>
+    <SDC_FILE>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Builds/build05/camera-timing.sdc">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="constraint_1" />
+          <Attr Name="CompileOrder" Val="2" />
+        </FileInfo>
+      </File>
+    </SDC_FILE>
+    <IP_FILE>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/pl/shelf-pwm80-20261028/RTL/system.xml">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="1" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-1080p60/firmware/display-pll/pll.xml">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="7" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_isp/ui_demosaic/blk_mem_gen_demosaic/blk_mem_gen_demosaic.xml">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/ui_isp/ui_demosaic/blk_mem_gen_zhenghe/blk_mem_gen_zhenghe.xml">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+    </IP_FILE>
+    <System_Verilog>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/al_ip/mipi_rx/hs_rx_wrapper.sv">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="17" />
+        </FileInfo>
+      </File>
+      <File Path="I:/FPSoC-DR1M90/Projects/F3P-RobotArm-Diagnostics/artifacts/osd-src/Project/artifacts/camera-live/vendor-imx415/soc_prj/uisrc/03_ip/al_ip/mipi_rx/channel_aligner_wrapper.enc.sv">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="19" />
+        </FileInfo>
+      </File>
+    </System_Verilog>
+  </Source_Files>
+  <FileSets>
+    <FileSet Name="design_1" Type="DesignFiles">
+        </FileSet>
+    <FileSet Name="constraint_1" Type="ConstrainFiles">
+        </FileSet>
+  </FileSets>
+  <TOP_MODULE>
+    <LABEL>system_top</LABEL>
+    <MODULE>system_top</MODULE>
+    <CREATEINDEX>user</CREATEINDEX>
+  </TOP_MODULE>
+  <Property>
+    </Property>
+  <Device_Settings>
+    </Device_Settings>
+  <Configurations>
+    </Configurations>
+</Project>

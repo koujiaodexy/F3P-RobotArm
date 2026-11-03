@@ -1,0 +1,8 @@
+{
+  "min_softmax_score": 0.9,
+  "min_top2_margin": 0.05,
+  "validation_correct_command_coverage": 0.3969298245614035,
+  "softmax_scores_are_calibrated_probabilities": false,
+  "selected_using": "validation_only",
+  "real_world_validated": false
+}
